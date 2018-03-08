@@ -142,4 +142,4 @@ curl -s -X POST \
    -H "Travis-API-Version: 3" \
    -H "Authorization: token ${TOKEN}" \
    -d "${BODY}" \
-   https://api.travis-ci.org/repo/mozilla-iot%2Frpi-image-builder/requests
+   https://api.travis-ci.org/repo/hobinjk%2Frpi-image-builder/requests
