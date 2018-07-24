@@ -20,7 +20,7 @@ wget ${OPENZWAVE_ZIP}
 
 unzip -q $(basename ${OPENZWAVE_ZIP})
 mv open-zwave-master OpenZWave/open-zwave
-rm ${OPENZWAVE_ZIP}
+rm $(basename ${OPENZWAVE_ZIP})
 
 # Go build the gateway dependencies
 ${RPXC} bash -c ./gateway/image/build-gateway.sh
